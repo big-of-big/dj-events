@@ -11,10 +11,13 @@ const Layout = ({ title, keywords, description, children }) => {
         <meta name="discription" content={description} />
         <meta name="keywords" content={keywords} />
       </Head>
+
       <Header />
+
       <div className={styles.container}>
         {children}
       </div>
+
       <Footer />
     </>
   )
